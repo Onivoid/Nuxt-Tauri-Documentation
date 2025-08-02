@@ -41,14 +41,14 @@ export default defineConfig({
             "meta",
             {
                 property: "og:image",
-                content: "https://nuxt-tauri-docs.vercel.app/og-image.svg",
+                content: "https://nuxt-tauri.onivoid.fr/og-image.png",
             },
         ],
         [
             "meta",
             {
                 property: "og:url",
-                content: "https://nuxt-tauri-docs.vercel.app",
+                content: "https://nuxt-tauri.onivoid.fr",
             },
         ],
         [
@@ -77,7 +77,7 @@ export default defineConfig({
             "meta",
             {
                 name: "twitter:image",
-                content: "https://nuxt-tauri-docs.vercel.app/og-image.svg",
+                content: "https://nuxt-tauri.onivoid.fr/og-image.png",
             },
         ],
 
@@ -99,7 +99,7 @@ export default defineConfig({
         // Canonical URL
         [
             "link",
-            { rel: "canonical", href: "https://nuxt-tauri-docs.vercel.app" },
+            { rel: "canonical", href: "https://nuxt-tauri.onivoid.fr" },
         ],
 
         // Schema.org structured data for SEO
@@ -112,7 +112,7 @@ export default defineConfig({
                 name: "Nuxt Tauri",
                 description:
                     "Vue composables for Tauri API in Nuxt applications",
-                url: "https://nuxt-tauri-docs.vercel.app",
+                url: "https://nuxt-tauri.onivoid.fr",
                 applicationCategory: "DeveloperApplication",
                 operatingSystem: "Cross-platform",
                 programmingLanguage: ["TypeScript", "Vue", "Rust"],
@@ -131,7 +131,7 @@ export default defineConfig({
 
     // Sitemap pour le SEO
     sitemap: {
-        hostname: "https://nuxt-tauri-docs.vercel.app",
+        hostname: "https://nuxt-tauri.onivoid.fr",
     },
 
     locales: {

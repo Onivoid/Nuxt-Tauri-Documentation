@@ -1,5 +1,25 @@
 ---
 layout: home
+title: Nuxt Tauri - Composables Vue pour l'API Tauri
+titleTemplate: false
+description: Intégrez l'API Tauri dans vos applications Nuxt avec des composables réactifs. Zéro configuration, prêt pour TypeScript, avec auto-imports.
+
+head:
+    - - meta
+      - name: keywords
+        content: nuxt tauri vue composables application desktop rust typescript réactif api intégration
+    - - meta
+      - property: og:title
+        content: Nuxt Tauri - Composables Vue pour l'API Tauri
+    - - meta
+      - property: og:description
+        content: Intégrez l'API Tauri dans vos applications Nuxt avec des composables réactifs. Zéro configuration, prêt pour TypeScript.
+    - - meta
+      - name: twitter:title
+        content: Nuxt Tauri - Composables Vue pour l'API Tauri
+    - - meta
+      - name: twitter:description
+        content: Intégrez l'API Tauri dans vos applications Nuxt avec des composables réactifs.
 
 hero:
     name: "Nuxt Tauri"

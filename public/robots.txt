@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nuxt-tauri-docs.vercel.app/sitemap.xml
+
+# Disallow cache and temporary files
+Disallow: /.vitepress/cache/
+Disallow: /.vitepress/dist/
+Disallow: /node_modules/
